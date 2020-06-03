@@ -10,12 +10,20 @@
             "error",
             "single",
             {
-              "allowTemplateLiterals": true
+                "allowTemplateLiterals": true
             }
         ],
         "semi": [
             "error",
             "never"
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "local",
+                "args": "none",
+                "ignoreRestSiblings": false
+            }
         ]
     }
 }
